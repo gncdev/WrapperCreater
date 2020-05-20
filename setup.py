@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
 	name='WrapperCreater',
 	packages=['WrapperCreater'],
-	version='2.0',
+	version='3.0',
 	license='MIT',
 	description='WrapperCreater For Python With Code',
 	author='GianC-Dev',

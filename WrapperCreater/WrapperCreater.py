@@ -41,10 +41,7 @@ class WrapperCreater:
 			if lstr.endswith(".py"):
 				listener.append("." + lstr.replace(".py", ""))
 			else:
-				if lstr.startswith("."):
-					listener.append(lstr)
-				else:
-					listener.append("." + lstr)
+				continue
 		file = open("__init__.py", "w")
 		for i in listener:
 			if i == ".idea":
